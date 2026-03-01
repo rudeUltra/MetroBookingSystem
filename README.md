@@ -10,12 +10,11 @@ Secure Authentication: Integrated with Google SSO to issue secure JWT (JSON Web 
 
 Modern Payments + Webhooks: Seamlessly handles ticket purchases using Polar (a developer-first alternative to Stripe).
 
+![Metro App Vision](https://raw.githubusercontent.com/rudeUltra/MetroBookingSystem/422e455360df1394c714a47c62e762a1815fc42a/metroAppvisiopng.png)
+
 Data Integrity: Implements robust Database Transactions to guarantee atomic operations during booking and payment processes.
 
 Event-Driven Architecture: Decouples core business logic from side effects; ticket purchases emit events that asynchronously trigger the Email System.
-
-![Metro App Vision](https://raw.githubusercontent.com/rudeUltra/MetroBookingSystem/422e455360df1394c714a47c62e762a1815fc42a/metroAppvisiopng.png)
-
 
 <h2>ER Diagram :</h2>
 
