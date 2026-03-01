@@ -18,9 +18,10 @@ export class AuthController {
 
     res.cookie('access_token', jwt, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
-      sameSite: 'lax',
+      secure: true,
+      sameSite: 'none',
       maxAge: 3600000, // 1 hour
+      
     });
 
     return res.redirect(process.env.FRONTEND_URL);
