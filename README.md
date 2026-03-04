@@ -1,4 +1,4 @@
-RapidTransit Metro Booking Application
+URBAN FLOW Metro Booking Application
 A robust, high-performance full-stack application for modern metro systems, engineered with a focus on algorithmic efficiency, scalability, and seamless user experience. This system allows users to authenticate via Google, calculate optimal routes, purchase tickets, and receive instant confirmation.
 
 🚀 Key Features
